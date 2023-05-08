@@ -1,0 +1,91 @@
+body {
+  background-image: url(imagenes/bg.jpg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  font-family: monospace
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.titulo {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 35px 0px 35px 0px;
+}
+
+.acerca__yo {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+}
+
+.texto__contacto {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.galeria__img {
+  width: 100%;
+}
+
+.section--top{
+  height: 135vh;
+}
+
+.section--about {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.acerca__yo {
+  padding-bottom: 30px;
+}
+
+.borde {
+  border-top: 2px solid #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.img--fondo {
+  width: 100%;
+  left: 0;
+  top: 10;
+  position: absolute;
+}
+
+.img--logo {
+  width: 50%;
+  left: 0;
+  position: absolute;
+}
+
+.galeria__item {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section--contacto {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contacto__interno{
+  display: flex;
+}
+
+.columna__contacto {
+  width: 50%;
+}
